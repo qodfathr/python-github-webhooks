@@ -1,5 +1,11 @@
-FROM python:2.7-alpine
-MAINTAINER "Matjaž Finžgar" <matjaz@finzgar.net>
+FROM centos:7 
+MAINTAINER "Todd Mancini" <todd.mancini@daxat.com>
+
+ENV container docker
+RUN yum -y update
+RUN yum -y install epel-release
+RUN yum -y install python-pip
+RUN yum -y install git
 
 WORKDIR /app
 
