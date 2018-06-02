@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "$1" "$2" "$3" >> /app/hooks/foo
+cat $1 > /app/hooks/bar
