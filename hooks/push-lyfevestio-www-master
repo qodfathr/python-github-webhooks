@@ -1,2 +1,4 @@
 #!/bin/sh
-cat $1 > /app/hooks/foobar
+pushd /usr/share/nginx/html
+git pull https://github.com/lyfevest/lyfevestio-www master
+popd
