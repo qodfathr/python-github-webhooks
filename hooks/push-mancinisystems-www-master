@@ -1,4 +1,4 @@
 #!/bin/sh
 pushd /usr/share/nginx/html2
-git pull https://github.com/mancinisystem/mancinisystems-www master
+git pull --rebase 
 popd
