@@ -1,4 +1,4 @@
 #!/bin/sh
 pushd /usr/share/nginx/html
-git pull https://github.com/lyfevest/lyfevestio-www master
+git pull --rebase
 popd
