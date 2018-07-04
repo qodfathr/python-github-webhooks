@@ -1,0 +1,4 @@
+#!/bin/sh
+pushd /usr/share/nginx/html
+git pull https://github.com/mancinisystem/mancinisystems-www master
+popd
